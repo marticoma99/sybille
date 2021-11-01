@@ -24,7 +24,7 @@
 }
 
 .playButton:hover{
-  opacity: 70%;
+  opacity: 0.7;
   transform: scale(1.2);
 }
 
