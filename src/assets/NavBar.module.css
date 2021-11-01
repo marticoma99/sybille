@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&display=swap");
+
+.navBarContainer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  transition: top 0.3s ease;
+}
+
+.navBarContainer a {
+  font-family: "Fruktur", cursive;
+  display: block;
+  cursor: pointer;
+  color: #82bcbd;
+  transition: 0.3s;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.navBarContainer a:hover {
+  opacity: 70%;
+  transform: scale(1.2);
+}
+
+.button {
+  position: absolute;
+  z-index: 2;
+  top: 0.8vh;
+  right: 2.6rem;
+  cursor: pointer;
+  border: none;
+  background-color: #fff9e9;
+  color: #82bcbd;
+  display: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  opacity: 70%;
+  transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 720px) {
+  .navBarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff9e9;
+    position: fixed;
+    top: 0vh;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    padding-block: 3vh;
+  }
+
+  .navContainerClosed {
+    top: -100%;
+  }
+
+  .button {
+    display: block;
+  }
+}

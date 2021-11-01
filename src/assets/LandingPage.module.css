@@ -1,0 +1,13 @@
+.imageContainer {
+  width: calc(100% - 3rem);
+  margin-inline: 1.5rem;
+  height: calc(100vh - (2.8vw + 1rem) * 2);
+  background-color: #82bcbd;
+}
+
+.coverImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 85%;
+}

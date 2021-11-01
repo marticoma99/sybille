@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff9e9;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}

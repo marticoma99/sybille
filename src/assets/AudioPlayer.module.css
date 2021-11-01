@@ -1,0 +1,37 @@
+.audioContainer {
+  width: 40rem;
+  height: 2.2rem;
+  background-color: #fff9e9;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap:0.5rem;
+}
+
+.playButton{
+  background-color: #82bcbd;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  color: #fff9e9;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.songAndArtist{
+  color:black;
+}
+
+.playButton:hover{
+  opacity: 70%;
+  transform: scale(1.2);
+}
+
+
+@media (max-width: 1080px){
+  .audioContainer {
+    width: 80vw;
+  }
+}
+
