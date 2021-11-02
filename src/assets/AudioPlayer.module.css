@@ -32,6 +32,8 @@
 @media (max-width: 1080px){
   .audioContainer {
     width: 80vw;
+    align-items: center;
+    justify-content: center;
   }
 }
 

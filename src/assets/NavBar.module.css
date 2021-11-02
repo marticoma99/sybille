@@ -57,6 +57,7 @@
     width: 100%;
     z-index: 1;
     padding-block: 3vh;
+    padding-top: 4vh;
   }
 
   .navContainerClosed {
