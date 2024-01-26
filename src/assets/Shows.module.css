@@ -1,0 +1,57 @@
+.showInfo {
+  display: flex;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.concretInfo {
+  display: flex;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.showDay {
+  font-size: 2rem;
+}
+
+.month {
+  align-self: flex-start;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 470px) {
+  .concretInfo h3::after {
+    content: " /";
+  }
+
+  .concretInfo h4::after {
+    content: " |";
+  }
+
+}
+
+
+
+.concretInfo h3,
+.showDay,
+.month {
+  color: black;
+}
+
+.concretInfo a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+  color: black;
+}
+
+.concretInfo a:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+.showContainer {
+  padding-inline: 2rem;
+}

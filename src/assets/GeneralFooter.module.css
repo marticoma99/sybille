@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+.footerContainer {
+  width: calc(100% - 4rem);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10vw;
+  padding-block: 2rem;
+  padding-inline: 2rem;
+  align-items: center;
+  background-color: black;
+}
+
+.footer {
+  clear: both;
+  position: relative;
+  bottom: 0;
+}
+
+.footerContainer h2 {
+  font-family: "Fruktur", cursive;
+  color: #fff9e9;
+}
+
+.footerElements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: 'Red Hat Mono', monospace;
+}
+
+.contactElements {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  color: #82bcbd;
+  justify-content: center;
+}

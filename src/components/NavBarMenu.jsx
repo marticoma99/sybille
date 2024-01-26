@@ -11,9 +11,13 @@ function NavBarMenu() {
     setOpen(!open);
   };
 
+  const closeMenu = () => {
+    setOpen(false);
+  }
+
   return (
     <div>
-      <NavBar open={open} />
+      <NavBar open={open} closeMenu={closeMenu}/>
       <MenuButton open={open} handleClick={handleClick} />
     </div>
   );

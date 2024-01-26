@@ -14,7 +14,7 @@
   font-family: "Fruktur", cursive;
   display: block;
   cursor: pointer;
-  color: #82bcbd;
+  color: #ec8a8a;
   transition: 0.3s;
   font-size: 1.4rem;
   text-decoration: none;
@@ -27,13 +27,13 @@
 
 .button {
   position: absolute;
-  z-index: 2;
+  z-index: 4;
   top: 0.8vh;
   right: 2.6rem;
   cursor: pointer;
   border: none;
-  background-color: #fff9e9;
-  color: #82bcbd;
+  background-color: #ec8a8a;
+  color: ec8a8a;
   display: none;
   transition: 0.3s;
 }
@@ -50,12 +50,12 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: #fff9e9;
+    background: #eca98a;
     position: fixed;
     top: 0vh;
     right: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 3;
     padding-block: 3vh;
     padding-top: 4vh;
   }

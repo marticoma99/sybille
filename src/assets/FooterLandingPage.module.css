@@ -16,13 +16,13 @@
 }
 
 .footerContainer a {
-  color: #82bcbd;
+  color: #ec8a8a;
   text-decoration: none;
   transition: 0.3s;
 }
 
 .footerContainer a:hover {
-  opacity: 0.7%;
+  opacity: 0.7;
   transform: scale(1.2);
 }
 

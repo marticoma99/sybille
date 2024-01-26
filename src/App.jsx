@@ -1,7 +1,9 @@
 import NavigationBar from "./components/NavigationBar";
 import LandingPage from "./components/LandingPage";
 import ContactPage from "./components/ContactPage";
+import ShowsPage from "./components/ShowsPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import AboutPage from "./components/AboutPage";
 
 function App() {
   return (
@@ -15,13 +17,13 @@ function App() {
             <LandingPage />
           </Route>
           <Route path="/shows">
-            <LandingPage />
+            <ShowsPage />
           </Route>
           <Route path="/contact">
             <ContactPage />
           </Route>
           <Route path="/about">
-            <LandingPage />
+            <AboutPage />
           </Route>
         </Switch>
       </main>

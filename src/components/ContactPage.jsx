@@ -1,5 +1,14 @@
-function ContactPage(){
-    return <h1>Contact Page</h1>;
+import GeneralFooter from "./GeneralFooter";
+import ContactInformation from "./ContactInformation";
+
+
+function ContactPage() {
+  return (
+    <div>
+      <ContactInformation/>
+      <GeneralFooter />
+    </div>
+  );
 }
 
 export default ContactPage;

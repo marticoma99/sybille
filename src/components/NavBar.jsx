@@ -1,11 +1,11 @@
 import styles from "../assets/NavBar.module.css";
 import { Link } from "react-router-dom";
 
-function NavBar(open) {
+function NavBar({open, closeMenu}) {
   let className = styles.navBarContainer;
-  if (!open.open) className += " " + styles.navContainerClosed;
+  if (!open) className += " " + styles.navContainerClosed;
   return (
-    <li className={className}>
+    <li className={className} onClick={closeMenu}>
       <Link to="/">
         <p>Home</p>
       </Link>
